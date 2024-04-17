@@ -44,13 +44,6 @@ section {
     padding-bottom: 0;
 }
 
-.landing-page .header .container {
-    padding-top: 26vh;
-    color: #FFFFFF;
-    z-index: 2;
-    position: relative;
-}
-
 .image-container {
     background-color: #161b22;
     position: relative;
@@ -84,4 +77,12 @@ section {
 
 .card-body {
     background-color: #010409;
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    color: #e2d8d8;
+}
+
+.card {
+    padding: 0px;
+    background-color: #161b22;
 }
