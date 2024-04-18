@@ -117,3 +117,13 @@ section {
 .card .card-body {
     min-height: 100px;
 }
+
+.text-code {
+    color: #FFFFFF;
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+}
+
+.code-var {
+    color: #637fd4;
+}
