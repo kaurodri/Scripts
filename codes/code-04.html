@@ -1,0 +1,40 @@
+<div class="text-content">
+    <p><span style="color: #637fd4;">const</span> <span
+            style="color: #32a6f9;">filterMessage</span> = <span
+            style="color: #f2e595;">require</span>(<span
+            style="color: #d48363;">'./script.js'</span>);</p>
+    <p><span style="margin-left: 10px; color: #ffd815;">{</span> <span
+            style="margin-left: 2px; color: #3c892b;">//Variáveis</span>
+        <br> <span style="margin-left: 50px; color: #637fd4;">let</span> <span
+            style="color: #32a6f9;">txt</span> <span style="color: #8bc081;">#conteúdo</span>
+        <br> <span style="margin-left: 50px; color: #637fd4;">let</span> <span
+            style="color: #32a6f9;">keyword</span> <span style="color: #8bc081;">#cliente /
+            usuário</span>
+        <br> <span style="margin-left: 50px; color: #637fd4;">let</span> <span
+            style="color: #32a6f9;">base</span> <span style="color: #8bc081;">#restrição</span>
+        <br> <span style="margin-left: 50px; color: #637fd4;">const</span> <span
+            style="color: #32a6f9;">database</span> <span style="color: #8bc081;">#banco de
+            dados</span>
+        <br> <span style="margin-left: 50px; color: #637fd4;">const</span> <span
+            style="color: #32a6f9;">silence</span> <span style=" color: #8bc081;">#filtro</span>
+        <br> <span style="margin-left: 10px; color: #ffd815;">}</span>
+    </p>
+    <p><span style="color: #f2e595;">filterMessage</span><span
+            style="color: #f61db1;">(</span>txt, keyword, base, database, silence<span
+            style="color: #f61db1;">)</span>;
+        <br> <span style="color: #8bc081;">#boolean</span>
+    </p>
+</div>
+
+
+<span style="color: #3c892b;">//1º compara se <span style="color: #eed709;">keyword</span> está dentro do <span style="color: #eed709;">database</span>.
+    //2º busca se <span style="color: #eed709;">txt</span> possui as palavras-chave do <span style="color: #eed709;">database</span>.
+    //3º verifica se possui palavras do <span style="color: #eed709;">silence</span>.</span>
+
+    { //Variáveis
+        let txt #string
+        let keyword #string
+        let base #generic
+        const database #object
+        const silence #array
+    }
